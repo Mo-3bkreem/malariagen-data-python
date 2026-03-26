@@ -47,7 +47,7 @@ html_theme_options = {
 }
 html_static_path = ["_static"]
 html_css_files = [
-    'custom.css',
+    "custom.css",
 ]
 html_logo = "_static/logo.svg"
 html_favicon = "_static/favicon.ico"
