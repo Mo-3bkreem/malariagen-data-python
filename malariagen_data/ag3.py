@@ -416,4 +416,8 @@ class Ag3(AnophelesDataResource):
     def _results_cache_add_analysis_params(self, params):
         super()._results_cache_add_analysis_params(params)
         # override parent class to add AIM analysis
-        params["aim_analysis"] = self._aim_analysis
+        params["aim_analysis"] = self._aim_analysis 
+        from .utils.summary import dataset_summary
+
+def summary(self):
+    return dataset_summary(self.data)
